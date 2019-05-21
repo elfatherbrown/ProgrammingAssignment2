@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
 
-## Write a short comment describing this function
+
+## Makes a matrix object, as far as R can do that.
 
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
@@ -18,7 +17,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## If you pass a matrix object, cacheSolve will return either the
+## cached version or will compute a new one.
 
 cacheSolve <- function(x) {
         ## Return a matrix that is the inverse of 'x'
